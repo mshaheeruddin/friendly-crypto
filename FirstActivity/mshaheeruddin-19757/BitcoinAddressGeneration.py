@@ -100,4 +100,3 @@ appendChecksum = prependNetworkByte + checksum
 #Generate Bitcoin Wallet Address
 bitcoinAddress = base58.b58encode(unhexlify(appendChecksum))
 print("Bitcoin Address: ", bitcoinAddress.decode('utf8'))
-
